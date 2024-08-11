@@ -62,3 +62,23 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     src: url('../fonts/static/Inter-Bold.ttf') format('truetype');
 }
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --font-size-paragraph: 14px;
+}
+
+p {
+    font-size: var(--font-size-paragraph);
+    color: var(--white);
+}
+
+/* Mobile Design */
+html, body {
+    height: auto;
+    width: 100%;
+}
